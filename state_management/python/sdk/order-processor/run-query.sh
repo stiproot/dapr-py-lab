@@ -1,5 +1,5 @@
 #!/bin/sh
 
-dapr run --app-id order-processor \
+dapr run --app-id query \
     --resources-path ../../../resources/ \
-    -- python3 app.py
+    -- python3 query.py

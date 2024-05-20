@@ -2,10 +2,7 @@ import json
 from dapr.clients import DaprClient
 from dapr.clients.grpc._state import StateItem
 
-# Path to your dataset JSON file
-json_file_path = 'dataset.json'
-
-# Read the JSON file
+# json_file_path = 'dataset.json'
 # with open(json_file_path, 'r') as file:
 #     data = json.load(file)
 
